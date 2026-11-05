@@ -58,7 +58,12 @@ options:
     description: |
       Allows to set the colortheme, e.g. red.darken(30%).
       Default set to blue.darken(30%)
-      
+  - id: font_face
+    type: string
+    description: Font face
+  - id: paper_size
+    type: string
+    description: Paper size
 
 parts:
   - id: abstract
